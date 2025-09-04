@@ -67,9 +67,7 @@ export default function Index() {
 					</TouchableOpacity>
 				</View>
 				<View style={styles.signupgroup}>
-					<Text style={styles.signupTitleText}>
-						Don&apos;t have an account?
-					</Text>
+					<Text style={styles.signupTitleText}>Don&#39;t have an account?</Text>
 					<Text style={styles.signupSubTitleText}>Sign in</Text>
 				</View>
 			</SafeAreaView>
