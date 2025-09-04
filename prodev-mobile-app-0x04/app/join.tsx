@@ -1,7 +1,7 @@
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from "@/constants";
 
 export default function Index() {
@@ -41,7 +41,7 @@ export default function Index() {
 					</View>
 				</View>
 				<TouchableOpacity style={styles.primaryButton}>
-					<Text style={styles.buttonText}>Sign in</Text>
+					<Text style={styles.buttonText}>Create</Text>
 				</TouchableOpacity>
 				<View style={styles.dividerGroup}>
 					<View style={styles.divider}></View>
@@ -70,7 +70,7 @@ export default function Index() {
 					<Text style={styles.signupTitleText}>
 						Don&apos;t have an account?
 					</Text>
-					<Text style={styles.signupSubTitleText}>Join now</Text>
+					<Text style={styles.signupSubTitleText}>Sign in</Text>
 				</View>
 			</SafeAreaView>
 		</SafeAreaProvider>
