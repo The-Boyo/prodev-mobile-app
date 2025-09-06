@@ -1,4 +1,3 @@
-import PropertyListing from "@/components/PropertyListing";
 import { Feather } from "@expo/vector-icons";
 import {
 	View,
@@ -10,6 +9,7 @@ import {
 	StyleSheet,
 } from "react-native";
 import { FILTERS, SAMPLE_DATA } from "@/constants/data";
+import PropertyListing from "@/components/PropertyListing";
 
 const Home = () => {
 	return (
