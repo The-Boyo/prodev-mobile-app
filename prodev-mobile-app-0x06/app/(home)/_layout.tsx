@@ -6,6 +6,7 @@ import {
 	Ionicons,
 } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
+import "../../styles/global.css";
 
 const HomeRootLayout = () => {
 	return (

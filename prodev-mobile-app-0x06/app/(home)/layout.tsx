@@ -6,6 +6,7 @@ import {
 	Ionicons,
 } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
+import "../../styles/global.css";
 
 const TheHomeRootLayout = () => {
 	return (
@@ -55,7 +56,6 @@ const TheHomeRootLayout = () => {
 				name="profile"
 				options={{
 					title: "Profile",
-					headerShown: false,
 					tabBarIcon: ({ color }) => (
 						<FontAwesome name="user-o" size={24} color={`black`} />
 					),
